@@ -1,0 +1,28 @@
+{
+  "name": "api-node-mysql1",
+  "version": "1.0.0",
+  "description": "Api node con  mysql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moonhuntercode/Api-node-mysql1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moonhuntercode/Api-node-mysql1/issues"
+  },
+  "homepage": "https://github.com/moonhuntercode/Api-node-mysql1#readme",
+  "dependencies": {
+    "@mysql/xdevapi": "8.0.27",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
